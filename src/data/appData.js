@@ -28,7 +28,7 @@ export const barChartMonthlyPercentages = [
 export const gridData = [
     {
         "ProductID": 1,
-        "ProductName": "Chai",
+        "ProductName": "WheyIsolate",
         "SupplierID": 1,
         "CategoryID": 1,
         "QuantityPerUnit": "10 boxes x 20 bags",
@@ -46,7 +46,7 @@ export const gridData = [
     },
     {
         "ProductID": 2,
-        "ProductName": "Chang",
+        "ProductName": "Creatine",
         "SupplierID": 1,
         "CategoryID": 1,
         "QuantityPerUnit": "24 - 12 oz bottles",
@@ -64,7 +64,7 @@ export const gridData = [
     },
     {
         "ProductID": 3,
-        "ProductName": "Aniseed Syrup",
+        "ProductName": "FishOil",
         "SupplierID": 1,
         "CategoryID": 2,
         "QuantityPerUnit": "12 - 550 ml bottles",
@@ -82,7 +82,7 @@ export const gridData = [
     },
     {
         "ProductID": 4,
-        "ProductName": "Chef Anton's Cajun Seasoning",
+        "ProductName": "MultiVitamins",
         "SupplierID": 2,
         "CategoryID": 2,
         "QuantityPerUnit": "48 - 6 oz jars",
@@ -100,7 +100,7 @@ export const gridData = [
     },
     {
         "ProductID": 5,
-        "ProductName": "Chef Anton's Gumbo Mix",
+        "ProductName": "BCAAs",
         "SupplierID": 2,
         "CategoryID": 2,
         "QuantityPerUnit": "36 boxes",
@@ -118,7 +118,7 @@ export const gridData = [
     },
     {
         "ProductID": 6,
-        "ProductName": "Grandma's Boysenberry Spread",
+        "ProductName": "Coffee",
         "SupplierID": 3,
         "CategoryID": 2,
         "QuantityPerUnit": "12 - 8 oz jars",
@@ -136,7 +136,7 @@ export const gridData = [
     },
     {
         "ProductID": 7,
-        "ProductName": "Uncle Bob's Organic Dried Pears",
+        "ProductName": "Ashwagandha",
         "SupplierID": 3,
         "CategoryID": 7,
         "QuantityPerUnit": "12 - 1 lb pkgs.",
@@ -154,7 +154,7 @@ export const gridData = [
     },
     {
         "ProductID": 8,
-        "ProductName": "Northwoods Cranberry Sauce",
+        "ProductName": "VitaminC",
         "SupplierID": 3,
         "CategoryID": 2,
         "QuantityPerUnit": "12 - 12 oz jars",
@@ -170,69 +170,33 @@ export const gridData = [
         },
         "FirstOrderedOn": new Date(1996, 11, 1)
     },
-    {
-        "ProductID": 9,
-        "ProductName": "Mishi Kobe Niku",
-        "SupplierID": 4,
-        "CategoryID": 6,
-        "QuantityPerUnit": "18 - 500 g pkgs.",
-        "UnitPrice": 97,
-        "UnitsInStock": 29,
-        "UnitsOnOrder": 0,
-        "ReorderLevel": 0,
-        "Discontinued": true,
-        "Category": {
-            "CategoryID": 6,
-            "CategoryName": "Meat/Poultry",
-            "Description": "Prepared meats"
-        },
-        "FirstOrderedOn": new Date(1997, 1, 21)
-    },
-    {
-        "ProductID": 10,
-        "ProductName": "Ikura",
-        "SupplierID": 4,
-        "CategoryID": 8,
-        "QuantityPerUnit": "12 - 200 ml jars",
-        "UnitPrice": 31,
-        "UnitsInStock": 31,
-        "UnitsOnOrder": 0,
-        "ReorderLevel": 0,
-        "Discontinued": false,
-        "Category": {
-            "CategoryID": 8,
-            "CategoryName": "Seafood",
-            "Description": "Seaweed and fish"
-        },
-        "FirstOrderedOn": new Date(1996, 8, 5)
-    }
   ];
 
   export const panelBarData = {
     'teammates': [
       {
-        firstName: 'Andrew',
-        lastName: 'Fuller',
+        firstName: 'Rakesh',
+        lastName: 'Singh',
         position: 'Team Lead'
       }, {
-        firstName: 'Nancy',
-        lastName: 'Leaver',
+        firstName: 'Drew',
+        lastName: 'Barrymore',
         position: 'Sales Associate'
       }, {
         firstName: 'Robert',
-        lastName: 'King',
+        lastName: 'Anthony',
         position: 'Business System Analyst'
       }, {
-        firstName: 'Laurence',
-        lastName: 'Lee',
+        firstName: 'Britt',
+        lastName: 'Baker',
         position: 'Accounting Manager'
       }, {
-        firstName: 'Mary',
-        lastName: 'Saveley',
+        firstName: 'Steve',
+        lastName: 'Curry',
         position: 'Sales Agent'
       }, {
-        firstName: 'Hari',
-        lastName: 'Kumar',
+        firstName: 'John',
+        lastName: 'Ring',
         position: 'Sales Manager'
       }
     ],
