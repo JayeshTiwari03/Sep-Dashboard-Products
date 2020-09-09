@@ -11,7 +11,6 @@ import {
 
 import { pieChartData } from "../data/appData";
 
-/* This function's outputted string determines the label contents */
 const labelTemplate = (e) => (e.category + '\n'+ e.value);
 
 export const PieChart = () => (
